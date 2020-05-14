@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ScrollView android:layout_marginBottom="2dp" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Weather" android:fontFamily="sans-serif-condensed-medium" android:textSize="26sp" android:textColor="@android:color/black" android:layout_marginTop="25dp" android:gravity="center" android:layout_gravity="center" android:layout_alignParentTop="true" android:id="@+id/weatherTitle"/>
+
+
+        <TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="0dp" android:gravity="center" android:id="@+id/tableRow1">
+
+            <CheckBox android:layout_height="wrap_content" android:layout_width="130dp" android:text=" Subscribe" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/weatherCheck1" android:layout_marginLeft="0dp"/>
+
+            <CheckBox android:layout_height="wrap_content" android:layout_width="110dp" android:text=" Notify" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/weatherCheck2"/>
+
+        </TableRow>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Construction" android:fontFamily="sans-serif-condensed-medium" android:textSize="26sp" android:textColor="@android:color/black" android:layout_marginTop="25dp" android:gravity="center" android:layout_gravity="center" android:layout_alignParentTop="true" android:id="@+id/constructionTitle"/>
+
+
+        -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="0dp" android:gravity="center" android:id="@+id/tableRow2">
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="130dp" android:text=" Subscribe" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/constructionCheck1" android:layout_marginLeft="0dp"/>
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="110dp" android:text=" Notify" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/constructionCheck2"/>
+
+    </TableRow>
+
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Everett" android:fontFamily="sans-serif-condensed-medium" android:textSize="26sp" android:textColor="@android:color/black" android:layout_marginTop="25dp" android:gravity="center" android:layout_alignParentTop="true" android:id="@+id/everettTitle"/>
+
+
+        -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="0dp" android:gravity="center" android:id="@+id/tableRow3">
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="130dp" android:text=" Subscribe" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/everettCheck1" android:layout_marginLeft="0dp"/>
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="110dp" android:text=" Notify" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/everettCheck2"/>
+
+    </TableRow>
+
+
+
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Lake Stevens" android:fontFamily="sans-serif-condensed-medium" android:textSize="26sp" android:textColor="@android:color/black" android:layout_marginTop="25dp" android:gravity="center" android:layout_alignParentTop="true" android:id="@+id/lakeStevensTitle"/>
+
+
+        -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="0dp" android:gravity="center" android:id="@+id/tableRow5">
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="130dp" android:text=" Subscribe" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/stevensCheck1" android:layout_marginLeft="0dp"/>
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="110dp" android:text=" Notify" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/stevensCheck2"/>
+
+    </TableRow>
+        <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Snohomish County" android:fontFamily="sans-serif-condensed-medium" android:textSize="26sp" android:textColor="@android:color/black" android:layout_marginTop="25dp" android:gravity="center" android:layout_alignParentTop="true" android:id="@+id/snohomishTitle"/>
+
+
+        -<TableRow android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginTop="0dp" android:gravity="center" android:id="@+id/tableRow4">
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="130dp" android:text=" Subscribe" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/snohomishCheck1" android:layout_marginLeft="0dp"/>
+
+        <CheckBox android:layout_height="wrap_content" android:layout_width="110dp" android:text=" Notify" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="0dp" android:id="@+id/snohomishCheck2"/>
+
+    </TableRow>
+
+        <Button android:layout_height="wrap_content" android:layout_width="220dp" android:text="Confirm Changes" android:fontFamily="sans-serif-condensed-medium" android:textSize="18sp" android:layout_marginTop="30dp" android:layout_gravity="center" android:id="@+id/changesButton" android:background="#6DBD4B"/>
+
+    </LinearLayout>
+
+</ScrollView>
