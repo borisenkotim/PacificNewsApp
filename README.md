@@ -1,3 +1,3 @@
 # PacificNewsApp
 Project From CougHacks Hackathon
-Landed first place in competition
+- Landed first place in competition
